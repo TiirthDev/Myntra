@@ -1,0 +1,35 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    background: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.subtotal > button{
+    background: #E93D67;
+    margin-top: 10px;
+    border: 1px solid #E93D67;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.price-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px
+}
+
+.green{
+    color: #14CDA8;
+}
+
+.subtotal > hr{
+    margin: 10px 0;
+}
